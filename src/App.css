@@ -20,7 +20,7 @@ body {
   min-height: 600px;
   background: #161a2b;
   text-align: center;
-  margin: 128px auto;
+  margin: 40px auto;
   border-radius: 10px;
   padding-bottom: 32px;
 }
@@ -148,4 +148,27 @@ h1 {
 .row{
   display: flex;
   flex-direction: row;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  .row {
+    display: flex;
+    flex-direction: column; 
+  }
+
+  .todo-app {
+    margin: 40px auto;
+  }
+  
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  .row {
+    display: flex;
+    flex-direction: column; 
+  }
+
+  
 }

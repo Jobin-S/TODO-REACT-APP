@@ -2,12 +2,12 @@ import React from "react";
 import { RiCloseCircleLine } from "react-icons/ri";
 import { TiEdit } from "react-icons/ti";
 
-function RemovedTodo({ toDos, deleteToggle }) {
+function RemovedTodo({ toDos, deleteToggle, editToggle }) {
   return (
     <div className="todo-app">
       <h1>removed Task</h1>
 
-      {toDos.map(({ id, text, checked, deleted, editToggle }) => {
+      {toDos.map(({ id, text, checked, deleted }) => {
         if (!checked && !deleted) return null;
         // if(checked) return null
         if (!deleted) return null;
