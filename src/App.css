@@ -150,7 +150,7 @@ h1 {
   flex-direction: row;
 }
 
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 360px) and (max-width: 767px) {
   
   .row {
     display: flex;
@@ -163,7 +163,7 @@ h1 {
   
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1290px) {
   
   .row {
     display: flex;
