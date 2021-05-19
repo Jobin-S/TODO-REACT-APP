@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+TODO APP hosted link 👉🏻 [TODO APP](https://todo-react-app-xi.vercel.app/).
 
 ## Available Scripts
 
