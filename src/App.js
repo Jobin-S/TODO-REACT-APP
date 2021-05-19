@@ -4,6 +4,7 @@ import Swal from "sweetalert2";
 import Todo from "./components/Todo";
 import CheckedTodo from "./components/CheckedTodo";
 import RemovedTodo from "./components/RemovedTodo";
+import GithubCorner from 'react-github-corner';
 
 function App() {
   const [toDos, setToDos] = useState(JSON.parse(localStorage.getItem("toDos")) || []);
@@ -90,6 +91,7 @@ function App() {
         deleteToggle={deleteToggle}
         editToggle={editToggle}
       />
+      <GithubCorner href="https://github.com/Jobin-S/TODO-REACT-APP"  />
     </div>
     </>
   );
